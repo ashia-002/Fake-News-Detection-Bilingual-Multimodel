@@ -80,19 +80,19 @@ Real / Fake
   Contains detailed training logs for the different individual models.
 
 * **models/**  
-  Holds saved trained model files (e.g., CNN weights, transformers).
+  Holds saved trained model files (e.g., CNN weights, transformers, xml-RoBERTa trained weights, fusion model).
 
 * **notebooks/**  
   Jupyter notebooks for training and evaluating each model.
 
 * **src/**  
-  Currently contains only the custom CNN model implementation and related code.
+  Currently contains custom CNN model, XML-RoBERTa model and Fusion model implementation and related code.
   
 This architecture includes the following components in the `src/` directory:
 
    - **dataloader/** — Scripts for loading and preprocessing image data.
    - **evaluate/** — Code for evaluating model predictions and performance metrics.
-   - **models/** — CNN architectures and model definitions used in image classification.
+   - **models/** — Model architectures and model definitions used in image classification.
    - **preprocessing/** — Image and text preprocessing routines to prepare data for modeling.
    - **train/** — Training loops and utility functions to train and optimize models.
 
